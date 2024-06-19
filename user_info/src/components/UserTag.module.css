@@ -1,0 +1,28 @@
+.mainTag {
+    border-bottom: 1px solid rgb(240, 238, 238);
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 2%;
+}
+
+.userTag {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    padding: 2%;
+    border-radius: 10px;
+    
+}
+
+.userTag > h4 {
+    font-weight: bold;
+    font-size: medium;
+}
+
+.imgContainer {
+    height: 50px;
+    border-radius: 50px;
+}
+
